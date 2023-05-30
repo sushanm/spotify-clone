@@ -1,0 +1,29 @@
+packages/**/.cache
+packages/**/.lighthouseci
+packages/**/lib
+packages/**/tsclib
+packages/**/dist
+packages/**/public
+packages/**/build_manifest.json
+packages/**/package-lock.json
+node_modules
+coverage
+**/*.log
+.eslintcache
+.vscode
+.env
+# for local development
+.env.development
+.DS_Store
+.cache
+/.idea
+public
+.terraform
+terraform.tfstate
+.terraform.lock.hcl
+
+# Rush temporary files
+common/deploy/
+common/temp/
+common/autoinstallers/*/.npmrc
+**/.rush/temp/
